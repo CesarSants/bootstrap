@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(154, 201, 243);
+    border-bottom: solid rgb(26, 73, 113) 2px ;
+}
+
+#carousel-exemplo img{
+    max-height: 350px;
+    width: auto;
+    object-fit: cover;
+}
+
+.container {
+    background-color:rgb(154, 201, 243);
+    width: 100%;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+body {
+    background-color:rgb(194, 223, 248);
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.linha{
+    margin: 20px 0px;
+}
+
+.cartao {
+    margin-bottom: 10px;
+} 
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #carousel-exemplo img{
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #carousel-exemplo img{
+        max-height: 220px;
+    }
+}
